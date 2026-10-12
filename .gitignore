@@ -1,0 +1,47 @@
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Database files
+
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Testing and cache
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and editor
+
+.vscode/
+.idea/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.db.backup-*
+*.backup
+# Uploaded user files
+uploads/
